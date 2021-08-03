@@ -5,4 +5,12 @@ Repository to include all neon-related visualization scripts.
 
 
 --------------
-``bokeh_script`` folder:  includes the stand-alone script for running the diurnal cycle outside the notebook: to show case stand-alone application. 
+``bokeh_script`` folder:  
+Includes the stand-alone script for running the diurnal cycle outside the notebook: to show case stand-alone application. 
+![image](https://user-images.githubusercontent.com/17344536/128048052-b31c3d8c-1f0d-4148-aef1-fd64b04d8526.png)
+
+First, load your environment. 
+Next, run the following:
+```
+python -m bokeh serve  --show ./02-Neon_Evaluation_diel_cycle_dev.py  --port 5012
+```
