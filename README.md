@@ -3,7 +3,12 @@
 
 Repository to include all neon-related visualization scripts. 
 
-
+--------------
+To install all required libraries:
+```
+conda create --name neon -c conda-forge python=3.9 numpy scipy matplotlib pandas netcdf4 jupyter xarray tqdm bokeh jupyterlab
+conda activate neon
+```
 --------------
 ``bokeh_script`` folder:  
 Includes the stand-alone script for running the diurnal cycle outside the notebook: to show case stand-alone application. 
