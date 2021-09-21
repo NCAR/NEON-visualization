@@ -5,8 +5,9 @@ import xarray as xr
 
 import matplotlib
 import matplotlib.pyplot as plt
-
-
+import requests
+import pandas as pd
+import os
 
 
 def preprocess (ds):
@@ -42,3 +43,60 @@ def quick_soil_profile(sim_path, case_name, var, year):
         ds_ctsm[var].isel(levsoi=(slice(0,14))).plot(x="time",yincrease=False, robust=True,cmap='BrBG',figsize=(15, 5))
     else:
         print ('Please choose either TSOI or H2SOI for plotting.')
+        
+        
+        
+        
+def list_neon_eval_files(neon_site):                               
+    """              
+    A function to download and parse neon listing file.
+    """
+    # -- download listing.csv
+    listing_file = 'listing.csv'
+    url = 'https://neon-ncar.s3.data.neonscience.org/listing.csv'
+    download_file(url, listing_file)
+                     
+    df = pd.read_csv(listing_file)
+    df = df[df['object'].str.contains(neon_site+"_eval")]
+    
+    #df=df.join(df['object'].str.split("/", expand=True))
+    dict_out = dict(zip(df['object'],df['last_modified']))
+    #df_out = df[['object','6','last_modified']]
+    #print (df['last_modified'])
+    #print (df_out)  
+    #print (df['last_modified'].to_datetime())
+    return dict_out  
+                     
+                     
+def download_file(url, fname):
+    """              
+    Function to download a file.
+    Args:            
+        url (str):   
+            url of the file for downloading
+        fname (str) : 
+            file name to save the downloaded file.
+    """              
+    response = requests.get(url)
+                     
+    with open(fname, 'wb') as f:
+        f.write(response.content)
+                     
+    #-- Check if download status_code
+    if response.status_code == 200:
+        print('Download finished successfully for', fname,'.')
+    elif response.status_code == 404:
+        print('File '+fname+'was not available on the neon server:'+ url) 
+        
+        
+def download_eval_files (neon_site, eval_dir):
+    file_time = list_neon_eval_files(neon_site)
+    site_eval_dir = os.path.join(eval_dir,neon_site)
+    if not os.path.isdir(site_eval_dir):
+        os.mkdir(site_eval_dir)
+    
+    for key, value in file_time.items():
+        print (key)
+        fname = os.path.join(site_eval_dir, key.rsplit('/',1)[1])
+        print (fname)
+        download_file(key, fname)
