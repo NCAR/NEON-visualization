@@ -83,7 +83,7 @@ def plot_soil_profile_timeseries(sim_path, neon_site, case_name, var, year):
     print("Reading all simulation files [", len(sim_files), "files] took:", end-start, "s.")
         
     if var=='TSOI':
-        ds_ctsm[var].isel(levgrnd=(slice(0,9))).plot(x="time",yincrease=False, robust=True,cmap='YlOrRd',figsize=(15, 5))
+        #ds_ctsm[var].isel(levgrnd=(slice(0,9))).plot(x="time",yincrease=False, robust=True,cmap='YlOrRd',figsize=(15, 5))
         
         tsoi = ds_ctsm[var].isel(levgrnd=(slice(0,9)))
         x= tsoi.time.values
