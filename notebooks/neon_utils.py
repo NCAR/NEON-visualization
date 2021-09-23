@@ -187,6 +187,9 @@ def download_eval_files (neon_site, eval_dir):
             directory where you want your evaluation files
     """
 
+    if not os.path.isdir(eval_dir):
+        os.mkdir(eval_dir)
+    
     site_eval_dir = os.path.join(eval_dir,neon_site)
     #-- create directory if it does not exist
     if not os.path.isdir(site_eval_dir):
