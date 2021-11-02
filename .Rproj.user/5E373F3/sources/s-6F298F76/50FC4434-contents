@@ -1,8 +1,8 @@
 ---
-title: "NCAR-NEON Collaboration&reg;"
-banner-button-url: http://hurricanes.ral.ucar.edu/riskcalculator/videos/HRC_5.mp4
+title: "NCAR-NEON Collaboration"
+#banner-button-url: http://hurricanes.ral.ucar.edu/riskcalculator/videos/HRC_5.mp4
 banner-description: Getting started using, trouble shooting, and working with NCAR models and NEON measurements
-banner-title: NCAR-NEON Collaboration&reg; web app
+banner-title: NCAR-NEON Collaboration
 layout: frontpage
 banner-button-text: Quick start to docker
 ---
