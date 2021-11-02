@@ -1,11 +1,11 @@
 ---
-layout: frontpage
-title: NCAR-NEON Collaboration&reg;
-banner-title: NCAR-NEON Collaboration&reg; web app
-banner-description: Getting started using, trouble shooting, and working with NCAR models and NEON measurements   
-
-banner-button-text: Quick start to docker
+title: "NCAR-NEON Collaboration&reg;"
 banner-button-url: http://hurricanes.ral.ucar.edu/riskcalculator/videos/HRC_5.mp4
+banner-description: Getting started using, trouble shooting, and working with NCAR
+  models and NEON measurements
+banner-title: NCAR-NEON Collaboration&reg; web app
+layout: frontpage
+banner-button-text: Quick start to docker
 ---
 
 <img src="/images/simulated_phone_view_risk_of_damage_extreme.PNG" alt="Image of output from the Hurricane Risk Calculator simulated as being displayed on a mobile phone screen. This image shows the Risk of Damage for the Extreme risk level. " style="display: block; margin: auto;">
