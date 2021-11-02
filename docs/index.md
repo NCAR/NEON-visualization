@@ -4,10 +4,10 @@ title: "NCAR-NEON Collaboration"
 banner-description: Getting started using, trouble shooting, and working with NCAR models and NEON measurements
 banner-title: NCAR-NEON Collaboration
 layout: frontpage
-banner-button-text: Quick start CTSM-lab in Docker
+banner-button-text: Quick start for CTSM-lab in Docker
 ---
 
-<img src="/images/STER_tower.png" alt="NEON flux tower at Sterling, CO [STER]. " style="display: block; margin: auto;">
+<img src="images/STER_tower.png" alt="NEON flux tower at Sterling, CO [STER]. " style="display: block; margin: auto;">
 
 <!-- This project has built a cloud-based data and content delivery infrastructure to support a wide range of mobile apps built around the new probabilistic risk framework of the HurricaneRiskCalculator&reg;. -->
 
