@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1635896607120.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1255228463",
+    "id" : "4550902",
+    "lastKnownWriteTime" : 1635896741,
+    "last_content_update" : 1635896741798,
+    "path" : "~/Will/git_repos_local/NEON-visualization/docs/_config.yml",
+    "project_path" : "docs/_config.yml",
+    "properties" : {
+        "cursorPosition" : "19,45",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "yaml"
+}
