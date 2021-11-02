@@ -1,14 +1,13 @@
 ---
 title: "NCAR-NEON Collaboration&reg;"
 banner-button-url: http://hurricanes.ral.ucar.edu/riskcalculator/videos/HRC_5.mp4
-banner-description: Getting started using, trouble shooting, and working with NCAR
-  models and NEON measurements
+banner-description: Getting started using, trouble shooting, and working with NCAR models and NEON measurements
 banner-title: NCAR-NEON Collaboration&reg; web app
 layout: frontpage
 banner-button-text: Quick start to docker
 ---
 
-<img src="/images/simulated_phone_view_risk_of_damage_extreme.PNG" alt="Image of output from the Hurricane Risk Calculator simulated as being displayed on a mobile phone screen. This image shows the Risk of Damage for the Extreme risk level. " style="display: block; margin: auto;">
+<img src="/images/STER_tower.jpg" alt="NEON flux tower at Sterling, CO [STER]. " style="display: block; margin: auto;">
 
 <!-- This project has built a cloud-based data and content delivery infrastructure to support a wide range of mobile apps built around the new probabilistic risk framework of the HurricaneRiskCalculator&reg;. -->
 
