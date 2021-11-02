@@ -7,7 +7,7 @@ layout: frontpage
 banner-button-text: Quick start to docker
 ---
 
-<img src="/images/STER_tower.jpg" alt="NEON flux tower at Sterling, CO [STER]. " style="display: block; margin: auto;">
+<img src="/images/STER_tower.png" alt="NEON flux tower at Sterling, CO [STER]. " style="display: block; margin: auto;">
 
 <!-- This project has built a cloud-based data and content delivery infrastructure to support a wide range of mobile apps built around the new probabilistic risk framework of the HurricaneRiskCalculator&reg;. -->
 
