@@ -1,7 +1,7 @@
 ---
 title: "NCAR-NEON Collaboration"
 #banner-button-url: http://hurricanes.ral.ucar.edu/riskcalculator/videos/HRC_5.mp4
-banner-description: Getting started using, trouble shooting, and working with NCAR models and NEON measurements
+banner-description: Get started using, trouble shooting, and working with NCAR models and NEON measurements
 banner-title: NCAR-NEON Collaboration
 layout: frontpage
 banner-button-text: Quick start for CTSM-lab in Docker
