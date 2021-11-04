@@ -2,16 +2,12 @@
   - title: About the Project
     url: /pages/about/index.html
     submenu: 
-      - title: The Need
-        url: /pages/about/need.html
-      - title: Our Science
-        url: /pages/about/science.html
+      - title: Our Aims
+        url: /pages/about/aims.html
       - title: Our Team
         url: /pages/about/team.html
       - title: Our Partners
         url: /pages/about/partners.html
-      - title: Project Schedule
-        url: /pages/about/schedule.html
       - title: Project Updates
         url: /pages/about/updates.html
   - title: Get Involved
@@ -28,12 +24,5 @@
     submenu: 
       - title: A Hurricane Scenario
         url: /pages/insights/scenario.html
-  - title: Related Resources
-    url: /pages/related/index.html
-    submenu: 
-      - title: Tropical Cyclone Guidance Project
-        url: http://hurricanes.ral.ucar.edu 
-      - title: Forecasts of Hurricanes using Large-ensemble Outputs (FHLO)
-        url: http://tcs.mit.edu
-      - title: ResilientResidence (ResRe)
-        url: https://www.resilientresidence.com
+  - title: Resources
+    url: /pages/resources/index.html
