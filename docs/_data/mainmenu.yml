@@ -10,6 +10,17 @@
         url: /NEON-visualization/pages/about/partners.html
       - title: Project Updates
         url: /NEON-visualization/pages/about/updates.html
+  - title: Get Started Using the System
+    url: /NEON-visualization/pages/start/index.html
+    submenu:
+      - title: Get started in the container 
+        url: /NEON-visualization/pages/start/start.html
+      - title: Get technical or scientific help 
+        url: /NEON-visualization/pages/start/help.html
+      - title: Known issues with the system and results  
+        url: /NEON-visualization/pages/start/known.html
+      - title: Let us know about new issues  
+        url: /NEON-visualization/pages/start/issues.html
   - title: Get Involved
     url: /NEON-visualization/pages/involvement/index.html
     submenu: 
