@@ -1,28 +1,28 @@
   menu:
   - title: About the Project
-    url: /pages/about/index.html
+    url: /NEON-visualization/pages/about/index.html
     submenu: 
       - title: Our Aims
-        url: /pages/about/aims.html
+        url: /NEON-visualization/pages/about/aims.html
       - title: Our Team
-        url: /pages/about/team.html
+        url: /NEON-visualization/pages/about/team.html
       - title: Our Partners
-        url: /pages/about/partners.html
+        url: /NEON-visualization/pages/about/partners.html
       - title: Project Updates
-        url: /pages/about/updates.html
+        url: /NEON-visualization/pages/about/updates.html
   - title: Get Involved
-    url: /pages/involvement/index.html
+    url: /NEON-visualization/pages/involvement/index.html
     submenu: 
       - title: Get Notified When the App Becomes Available
-        url: /pages/involvement/signup.html
+        url: /NEON-visualization/pages/involvement/signup.html
       - title: Join the Researcher Collective
-        url: /pages/involvement/collective.html
+        url: /NEON-visualization/pages/involvement/collective.html
       - title: Become a Commercial Partner
-        url: /pages/involvement/commercial.html
+        url: /NEON-visualization/pages/involvement/commercial.html
   - title: Insights
-    url: /pages/insights/index.html
+    url: /NEON-visualization/pages/insights/index.html
     submenu: 
       - title: A Hurricane Scenario
-        url: /pages/insights/scenario.html
+        url: /NEON-visualization/pages/insights/scenario.html
   - title: Resources
-    url: /pages/resources/index.html
+    url: /NEON-visualization/pages/resources/index.html
