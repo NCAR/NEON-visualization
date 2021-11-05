@@ -8,6 +8,8 @@ import matplotlib.pyplot as plt
 import requests
 import pandas as pd
 import os
+import matplotlib.colors as colors
+import tqdm
 
 
 def preprocess (ds):
@@ -17,6 +19,13 @@ def preprocess (ds):
     ]
     ds_new= ds[variables]
     return ds_new
+
+def truncate_colormap(cmap, minval=0.0, maxval=1.0, n=100):
+    new_cmap = colors.LinearSegmentedColormap.from_list(
+        'trunc({n},{a:.2f},{b:.2f})'.format(n=cmap.name, a=minval, b=maxval),
+        cmap(np.linspace(minval, maxval, n)))
+    return new_cmap
+
 
 def quick_soil_profile(sim_path, case_name, var, year):
     """              
@@ -67,6 +76,8 @@ def plot_soil_profile_timeseries(sim_path, neon_site, case_name, var, year):
         year (int):
             simulation year for plot
     """
+    
+    time_0 = time.time()
     plt.rcParams["font.weight"] = "bold"    
     plt.rcParams["axes.labelweight"] = "bold"
     font = {'weight' : 'bold',
@@ -77,7 +88,15 @@ def plot_soil_profile_timeseries(sim_path, neon_site, case_name, var, year):
     print("All Simulation files: [", len(sim_files), "files]")
     
     start = time.time()
-    ds_ctsm = xr.open_mfdataset(sim_files, decode_times=True, preprocess=preprocess, combine='by_coords',parallel=True)
+    #ds_ctsm = xr.open_mfdataset(sim_files, decode_times=True, preprocess=preprocess, combine='by_coords',parallel=True)
+    
+    ds_all = []
+    for f in tqdm.tqdm(sim_files):
+        ds_tmp = xr.open_dataset(f,drop_variables=['ZSOI','DZSOI','WATSAT','SUCSAT','BSW','HKSAT','ZLAKE','DZLAKE'])
+        ds_all.append(ds_tmp.isel(time = 24))
+    
+    ds_ctsm = xr.concat (ds_all,dim='time')
+    
     end = time.time()
     
     print("Reading all simulation files [", len(sim_files), "files] took:", end-start, "s.")
@@ -102,11 +121,12 @@ def plot_soil_profile_timeseries(sim_path, neon_site, case_name, var, year):
         y= -h2o_soi.levsoi.values
         plot_var =  h2o_soi[:,:,0].values.transpose()
         
-        cmap = 'viridis'
+        #cmap = 'viridis'
         var_name = 'Soil Moisture'
         var_unit = '[mm3/mm3]'
         #ds_ctsm[var].isel(levsoi=(slice(0,15))).plot(x="time",yincrease=False, robust=True,cmap='viridis',figsize=(15, 5))
-
+        cmap = plt.get_cmap('gist_earth_r')
+        cmap = truncate_colormap(cmap, 0.15, 0.9)
         
     else:
         print ('Please choose either TSOI or H2OSOI for plotting.')
@@ -125,8 +145,11 @@ def plot_soil_profile_timeseries(sim_path, neon_site, case_name, var, year):
     y_label = var_name +' '+var_unit
     cbar.ax.set_ylabel(y_label)
 
-    plt.show()
-    
+    #plt.show()
+    time_1 = time.time()
+    print("Making this plot took ", time_1-time_0, "s.")
+
+
     
         
 
@@ -187,11 +210,13 @@ def download_eval_files (neon_site, eval_dir):
             directory where you want your evaluation files
     """
 
+    #-- create directory if it does not exist
     if not os.path.isdir(eval_dir):
         os.mkdir(eval_dir)
     
     site_eval_dir = os.path.join(eval_dir,neon_site)
-    #-- create directory if it does not exist
+
+    #-- create directory for the site if it does not exist
     if not os.path.isdir(site_eval_dir):
         os.mkdir(site_eval_dir)
 
