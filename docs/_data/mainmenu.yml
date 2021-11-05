@@ -10,7 +10,7 @@
         url: /NEON-visualization/pages/about/partners.html
       - title: Project Updates
         url: /NEON-visualization/pages/about/updates.html
-  - title: Get Started Using the System
+  - title: Get Started 
     url: /NEON-visualization/pages/start/index.html
     submenu:
       - title: Get Started
