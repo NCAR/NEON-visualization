@@ -13,13 +13,13 @@
   - title: Get Started Using the System
     url: /NEON-visualization/pages/start/index.html
     submenu:
-      - title: Get started in the container 
+      - title: Get Started
         url: /NEON-visualization/pages/start/start.html
-      - title: Get technical or scientific help 
+      - title: Get Help 
         url: /NEON-visualization/pages/start/help.html
-      - title: Known issues with the system and results  
+      - title: Known Issues  
         url: /NEON-visualization/pages/start/known.html
-      - title: Let us know about new issues  
+      - title: New Issues  
         url: /NEON-visualization/pages/start/issues.html
   - title: Get Involved
     url: /NEON-visualization/pages/involvement/index.html
