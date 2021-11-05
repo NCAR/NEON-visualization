@@ -10,9 +10,9 @@ title: Resources
 
 ### NCAR
 The Community Terrestrial Systems Model (CTSM) as several configuration options. This project uses the Community Land Model (CLM) configuration which is the climate and biogeochemistry mode of CTSM. We refer to the model as CLM and will use version 5.1 with active biogeochemistry (CLM5.1-BGC). Additional information about CTSM and CLM is available [on the website](https://www.cesm.ucar.edu/models/cesm2/land/), including:
--  [technical documentation](https://escomp.github.io/ctsm-docs/versions/release-clm5.0/html/tech_note/index.html),
--  a [user's guide](https://escomp.github.io/ctsm-docs/versions/release-clm5.0/html/users_guide/index.html),
--  and a [quickstart guide](https://escomp.github.io/CESM/release-cesm2/quickstart.html#create-a-case) to running various model configurations 
+-  [Technical documentation](https://escomp.github.io/ctsm-docs/versions/master/html/tech_note/index.html), a
+-  [User's guide](https://escomp.github.io/ctsm-docs/versions/master/html/users_guide/index.html), and a 
+-  [Quickstart guide](https://escomp.github.io/CESM/release-cesm2/quickstart.html#create-a-case) to running various model configurations 
 
 **Questions about running simulations?** Please post:
 - Questions about the CESM-Lab containter on the [Containers & Cloud Platforms forum in the DiscussCESM Forums](https://bb.cgd.ucar.edu/cesm/forums/containers-cloud-platforms.162/). 
