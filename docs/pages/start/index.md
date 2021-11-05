@@ -3,7 +3,7 @@ layout: default
 title: Get Started Using the System
 ---
 
-### [Get Started](start.html)
+### [Get Started](quickstart.html)
 
 ### [Get Help](help.html)
 

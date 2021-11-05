@@ -14,7 +14,7 @@
     url: /NEON-visualization/pages/start/index.html
     submenu:
       - title: Get Started
-        url: /NEON-visualization/pages/start/start.html
+        url: /NEON-visualization/pages/start/quickstart.html
       - title: Get Help 
         url: /NEON-visualization/pages/start/help.html
       - title: Known Issues  
