@@ -13,16 +13,7 @@
   - title: Get Involved
     url: /NEON-visualization/pages/involvement/index.html
     submenu: 
-      - title: Get Notified When the App Becomes Available
+      - title: Receive notifications of updates and opportunities
         url: /NEON-visualization/pages/involvement/signup.html
-      - title: Join the Researcher Collective
-        url: /NEON-visualization/pages/involvement/collective.html
-      - title: Become a Commercial Partner
-        url: /NEON-visualization/pages/involvement/commercial.html
-  - title: Insights
-    url: /NEON-visualization/pages/insights/index.html
-    submenu: 
-      - title: A Hurricane Scenario
-        url: /NEON-visualization/pages/insights/scenario.html
   - title: Resources
     url: /NEON-visualization/pages/resources/index.html

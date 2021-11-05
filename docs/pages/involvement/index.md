@@ -3,8 +3,5 @@ layout: default
 title: How to Get Involved
 ---
 
-### [Get Notified When the App Becomes Available](signup.html)
+### [Get notifications of updates and opportunities](signup.html)
 
-### [Join the Researcher Collective](collective.html)
-
-### [Become a Commercial Partner](commercial.html)
