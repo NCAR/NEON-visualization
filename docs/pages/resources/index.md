@@ -17,7 +17,8 @@ The Community Terrestrial Systems Model (CTSM) has several configuration options
 **Questions about running simulations?** On DiscussCESM Forums please post:
 - Questions about the CESM-Lab containter on the [Containers & Cloud Platforms Forum](https://bb.cgd.ucar.edu/cesm/forums/containers-cloud-platforms.162/). 
 - Science related questions on the [CTSM Forum](https://bb.cgd.ucar.edu/cesm/forums/ctsm-clm-mosart-rtm.134/). 
-*Note that this resource will require you to register and log in so that you can be notified of responses to your inquiries.*
+
+*Note the Forums will require you to register and log in so that you can be notified of responses to your inquiries.*
 - You can also file issues on the [NCAR-NEON GitHub repository](https://github.com/NCAR/NEON-visualization)
 
 
