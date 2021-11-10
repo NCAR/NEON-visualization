@@ -19,8 +19,5 @@
         url: /NEON-visualization/pages/start/issues.html
   - title: Get Involved
     url: /NEON-visualization/pages/involvement/index.html
-    submenu: 
-      - title: Receive notifications of updates and opportunities
-        url: /NEON-visualization/pages/involvement/signup.html
   - title: Resources
     url: /NEON-visualization/pages/resources/index.html
