@@ -1,6 +1,7 @@
 ---
-layout: default
-title: About the Project
+title: About the project
+banner-title: NCAR-NEON Collaboration
+layout: default  
 ---
 
 ### [Our Aims](aims.html)
