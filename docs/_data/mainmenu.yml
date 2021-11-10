@@ -2,8 +2,6 @@
   - title: About the Project
     url: /NEON-visualization/pages/about/index.html
     submenu: 
-      - title: Our Aims
-        url: /NEON-visualization/pages/about/aims.html
       - title: Our Team
         url: /NEON-visualization/pages/about/team.html
       - title: Our Partners
