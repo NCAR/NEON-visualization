@@ -8,5 +8,5 @@ banner-button-text: Quick start for CTSM-lab in Docker
 ---
 The project links NCAR’s modeling capabilities with NEON’s measurement network through a cyberinfrastructure projects thats aims to drive scientific discovery and innovation at the confluence of the geosciences and biological sciences.
 
-
+**Note, the currrent beta release** of these tools is _not_ scientifically supported and should _not_ be used for research or publications
 <img src="images/STER_tower.png" alt="NEON flux tower at Sterling, CO [STER]. " style="display: block; margin: auto;">
