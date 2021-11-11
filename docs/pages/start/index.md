@@ -13,5 +13,5 @@ As you're using these tools the following links may be helpful regarding:
 
 #### [New Issues](issues.html)
 
-<img src="images/CESM-Lab.png" alt="CESM-Lab graphic" style="display: block; margin: auto;">
+<img src="../../images/CESM-Lab.png" alt="CESM-Lab graphic" style="display: block; margin: auto;">
 

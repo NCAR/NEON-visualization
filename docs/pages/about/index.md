@@ -11,5 +11,5 @@ Links below will also provide information about:
 
 #### [Project Updates](updates.html)
 
-<img src="images/NCAR.png" alt="NCAR and the Front Range. " style="display: block; margin: auto;">
+<img src="../../images/NCAR.png" alt="NCAR and the Front Range." style="display: block; margin: auto;">
 
