@@ -22,7 +22,8 @@ David worked to gap fill NEON data and provide input and evaluation data that ar
 #### Jim Edwards
 
 Jim built up the workflow for bringing NEON data products and using them in CLM simulations (NCAR).
-#### Dawn Lentz
+
+#### Dawn Lenz
 
 Dawn handles data issue and data sharing for the project (NEON).
 
