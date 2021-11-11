@@ -13,5 +13,5 @@ As you're using these tools the following links may be helpful regarding:
 
 #### [New Issues](issues.html)
 
-<img src="images/TOOL_tower.jpg" alt="NEON flux tower at Toolik Lake, AK [TOOL]. " style="display: block; margin: auto;">
+<img src="images/TOOL_tower.png" alt="NEON flux tower at Toolik Lake, AK [TOOL]. " style="display: block; margin: auto;">
 
