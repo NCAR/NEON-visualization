@@ -6,7 +6,7 @@ title: Resources
 ## Resources
 
 ### Workshops
-[Predicting life in the Earth system](https://www.neonscience.org/get-involved/events/continuing-nsf-joint-ncarneon-workshop-series-predicting-life-earth-system)
+[Predicting life in the Earth system](https://www.neonscience.org/ncar-neon-community-collaborations)
 
 ### NCAR
 The Community Terrestrial Systems Model (CTSM) has several configuration options. This project uses the Community Land Model (CLM) configuration which is the climate and biogeochemistry mode of CTSM. We refer to the model as CLM and will use version 5.1 with active biogeochemistry (CLM5.1-BGC). Additional information about CTSM and CLM is available [on the CLM website](https://www.cesm.ucar.edu/models/cesm2/land/), including:
