@@ -23,11 +23,9 @@ The Community Terrestrial Systems Model (CTSM) has several configuration options
 
 
 ### NEON
-[NEON Science](https://www.neonscience.org/)
-
-[Contact NEON regarding NEON data issues](https://www.neonscience.org/about/contact-us)
-
-[NCAR-NEON GitHub page for processing NEON data](https://github.com/NEONScience/NCAR-NEON)
+- [NEON Science](https://www.neonscience.org/)
+- [Contact NEON regarding NEON data issues](https://www.neonscience.org/about/contact-us)
+- [NCAR-NEON GitHub page for processing NEON data](https://github.com/NEONScience/NCAR-NEON)
 
 ### CICompass
 [CI Compass](https://ci-compass.org/)
