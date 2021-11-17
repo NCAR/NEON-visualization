@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1635893198839.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2876118785",
+    "id" : "50FC4434",
+    "lastKnownWriteTime" : 1635963163,
+    "last_content_update" : 1635963163215,
+    "path" : "~/Will/git_repos_local/NEON-visualization/docs/index.md",
+    "project_path" : "docs/index.md",
+    "properties" : {
+        "cursorPosition" : "10,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "markdown"
+}

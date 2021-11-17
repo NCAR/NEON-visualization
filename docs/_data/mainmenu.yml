@@ -1,0 +1,23 @@
+  menu:
+  - title: About the Project
+    url: /NEON-visualization/pages/about/index.html
+    submenu: 
+      - title: Our Team
+        url: /NEON-visualization/pages/about/team.html
+      - title: Our Partners
+        url: /NEON-visualization/pages/about/partners.html
+      - title: Project Updates
+        url: /NEON-visualization/pages/about/updates.html
+  - title: Get Started 
+    url: /NEON-visualization/pages/start/index.html
+    submenu:
+      - title: Get Help 
+        url: /NEON-visualization/pages/start/help.html
+      - title: Known Issues  
+        url: /NEON-visualization/pages/start/known.html
+      - title: New Issues  
+        url: /NEON-visualization/pages/start/issues.html
+  - title: Get Involved
+    url: /NEON-visualization/pages/involvement/index.html
+  - title: Resources
+    url: /NEON-visualization/pages/resources/index.html
