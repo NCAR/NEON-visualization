@@ -231,4 +231,4 @@ def download_eval_files (neon_site, eval_dir, year="all"):
         fname = key.rsplit('/',1)[1]
         if year=="all" or year in fname:
                 fname_out = os.path.join(site_eval_dir, fname)
-                download_file(key, fname)     
+                download_file(key, fname_out)     
