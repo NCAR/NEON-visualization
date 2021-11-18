@@ -197,8 +197,7 @@ def list_neon_eval_files(neon_site):
     dict_out = dict(zip(df['object'],df['last_modified']))
     return dict_out  
         
-        
-def download_eval_files (neon_site, eval_dir):
+def download_eval_files (neon_site, eval_dir, year="all"):
     """              
     A function to download all eval files for the specified
     neon tower site .
@@ -209,6 +208,11 @@ def download_eval_files (neon_site, eval_dir):
         eval_dir (str):
             directory where you want your evaluation files
     """
+
+    if (year=="all"):
+        print ("Downloading all available evaluation files for "+neon_site+".")
+    else:
+        print ("Downloading evaluation files for "+neon_site+" for year "+year+".")
 
     #-- create directory if it does not exist
     if not os.path.isdir(eval_dir):
@@ -224,5 +228,7 @@ def download_eval_files (neon_site, eval_dir):
     file_time = list_neon_eval_files(neon_site)
 
     for key, value in file_time.items():
-        fname = os.path.join(site_eval_dir, key.rsplit('/',1)[1])
-        download_file(key, fname)
+        fname = key.rsplit('/',1)[1]
+        if year=="all" or year in fname:
+                fname_out = os.path.join(site_eval_dir, fname)
+                download_file(key, fname_out)     
