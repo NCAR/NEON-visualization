@@ -14,7 +14,7 @@ We'd love to keep in touch.  Please let us know how you're using these tools and
 
 - Kyla Dahlin, Michigan State University 
 - Sanjiv Kumar, Auburn University
-- Claire Zarakas, Abby Swann University of Washington
+- Claire Zarakas & Abby Swann, University of Washington
 
 
 ### Funding Partners
