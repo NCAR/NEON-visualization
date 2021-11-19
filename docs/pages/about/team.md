@@ -11,7 +11,7 @@ A number of reseachers have play a role in developing the workflow and datasets 
 
 [//]: <> (<img src="../../images/people/Negin.png" alt="Head shot of Negin Sobhani" style="display: block; margin: auto; max-height: 300px;">)
 
-Negin developed the NCAR workflow to run single point sites with NEON data and analize model results (NCAR).
+Negin developed the NCAR workflow to run single point sites with NEON data and analyze/visualize model results (NCAR).
 
 #### David Durden
 
@@ -25,7 +25,7 @@ Jim built up the workflow for bringing NEON data products and using them in CLM 
 
 #### Dawn Lenz
 
-Dawn handles data issue and data sharing for the project (NEON).
+Dawn handles data issues and data sharing for the project (NEON).
 
 #### Danica Lombardozzi
 
@@ -53,19 +53,19 @@ Gordon kept the team on track, organized workshops, and coordinated activites ac
 
 #### Ed Ayres
 
-Ed helped clarify questions regarding soil properties at NEON sites (NEON)
+Ed helped clarify questions regarding soil properties at NEON sites (NEON).
 
 #### Valerio Pascucci
 
-Valerio provided suggestions and guidance on visualizations of NCAR-NEON data (CI Compass, Univ. of Utah)
+Valerio provided suggestions and guidance on visualizations of NCAR-NEON data (CI Compass, Univ. of Utah).
 
 #### Robert Ricci
 
-Robert provided suggestions and guidance related to the containerized CESM-Lab (CI Compass, Univ. of Utah)
+Robert provided suggestions and guidance related to the containerized CESM-Lab (CI Compass, Univ. of Utah).
 
 #### Charles Vardeman 
 
-Charles provided input and support on best data practices (CI Compas, Notre Dame)
+Charles provided input and support on best data practices (CI Compas, Notre Dame).
 
 #### Erik Kluzek
 
