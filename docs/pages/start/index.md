@@ -4,7 +4,7 @@ title: Get Started Using the System
 ---
 ### [Get started using the CESM-Lab container](https://ncar.github.io/ncar-neon-books/intro.html) 
 
-These resources will facilitatte running CLM simulations at NEON tower sites.  The link above will walk you through the instalation of docker and examples for how to run the model and visualize simulated and measured data.
+These resources will facilitate running CLM simulations at NEON tower sites.  The link above will walk you through the installation of docker and examples for how to run the model and visualize simulated and measured data.
 
 As you're using these tools the following links may be helpful regarding:
 #### [Get Help](help.html)
