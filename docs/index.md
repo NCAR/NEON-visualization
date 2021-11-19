@@ -1,6 +1,6 @@
 ---
 title: "NCAR-NEON Collaboration"
-banner-button-url: https://negin513.github.io/neon_book/intro.html
+banner-button-url: https://ncar.github.io/ncar-neon-books/intro.html
 banner-description: Get started working with NCAR models and NEON measurements
 banner-title: NCAR-NEON Collaboration
 layout: frontpage
