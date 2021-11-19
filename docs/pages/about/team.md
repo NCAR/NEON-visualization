@@ -51,7 +51,7 @@ Samantha contributed NEON soils data that are used for surface dataset (NEON).
 
 Gordon kept the team on track, organized workshops, and coordinated activites across organizations (NCAR).
 
-#### Ed Aers
+#### Ed Ayres
 
 Ed helped clarify questions regarding soil properties at NEON sites (NEON)
 
