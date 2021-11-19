@@ -61,7 +61,11 @@ Valerio provided suggestions and guidance on visualizations of NCAR-NEON data (C
 
 #### Robert Ricci
 
-Robert provided suggestions and guidance related to data generated for NCAR-NEON project (CI Compass, Univ. of Utah)
+Robert provided suggestions and guidance related to the containerized CESM-Lab (CI Compass, Univ. of Utah)
+
+### Charles Vardeman 
+
+Charles provided input and support on best data practices (CI Compas, Notre Dame)
 
 #### Erik Kluzek
 

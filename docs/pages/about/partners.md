@@ -17,7 +17,7 @@ We'd love to keep in touch.  Please let us know how you're using these tools and
 
 ### Funding Partners
 
-This project is funded through generous support of NSF Cyberinfracture: 
+This project is supported by the National Science Foundation Award Number 2039932 in partnership with the CISE, BIO, and GEO directorates
 
 
 
