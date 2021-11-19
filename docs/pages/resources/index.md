@@ -15,7 +15,7 @@ The Community Terrestrial Systems Model (CTSM) has several configuration options
 -  [Quickstart guide](https://escomp.github.io/CESM/release-cesm2/quickstart.html#create-a-case) to running various model configurations 
 
 **Questions about running simulations?** On DiscussCESM Forums please post:
-- Questions about the CESM-Lab containter on the [Containers & Cloud Platforms Forum](https://bb.cgd.ucar.edu/cesm/forums/containers-cloud-platforms.162/). 
+- Questions about the CESM-Lab container on the [Containers & Cloud Platforms Forum](https://bb.cgd.ucar.edu/cesm/forums/containers-cloud-platforms.162/). 
 - Science related questions on the [CTSM Forum](https://bb.cgd.ucar.edu/cesm/forums/ctsm-clm-mosart-rtm.134/). 
 
 *Note the Forums will require you to register and log in so that you can be notified of responses to your inquiries.*
