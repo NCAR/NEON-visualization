@@ -12,13 +12,14 @@ We'd love to keep in touch.  Please let us know how you're using these tools and
 
 \*Being listed below does not inply a formal partnership.
 
-- add people here!
+- Kyla Dahlin, Michigan State University 
+- Sanjiv Kumar, Auburn University
+- Claire Zarakas, Abby Swann University of Washington
 
 
 ### Funding Partners
 
 This project is supported by the National Science Foundation Award Number 2039932 in partnership with the CISE, BIO, and GEO directorates
-
 
 
 [Next: Project Updates](updates.html)
