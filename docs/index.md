@@ -16,4 +16,6 @@ These new capabilities are packaged into a Docker container, CESM-Lab, so that y
 
 Please note that this tool is currently in development and we are soliciting feedback from early adopters. Results should be used for exploratory purposes but not for publication-quality science. More detailed documentation will be provided in a forthcoming publication. 
 
+This project is supported by the National Science Foundation Award Number 2039932 in partnership with the CISE, BIO, and GEO directorates
+
 <img src="images/STER_tower.png" alt="NEON flux tower at Sterling, CO [STER]. " style="display: block; margin: auto;">
