@@ -92,7 +92,7 @@ def plot_soil_profile_timeseries(sim_path, neon_site, case_name, var, year):
     
     ds_all = []
     for f in tqdm.tqdm(sim_files):
-        ds_tmp = xr.open_dataset(f,drop_variables=['ZSOI','DZSOI','WATSAT','SUCSAT','BSW','HKSAT','ZLAKE','DZLAKE','PCT_SAND'])
+        ds_tmp = xr.open_dataset(f,drop_variables=['ZSOI','DZSOI','WATSAT','SUCSAT','BSW','HKSAT','ZLAKE','DZLAKE','PCT_SAND','PCT_CLAY'])
         ds_all.append(ds_tmp.isel(time = 24))
     
     ds_ctsm = xr.concat (ds_all,dim='time')
