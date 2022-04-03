@@ -6,7 +6,7 @@ Repository to include all neon-related visualization scripts.
 --------------
 To install all required libraries:
 ```
-conda create --name neon -c conda-forge python=3.9 numpy scipy matplotlib pandas netcdf4 jupyter xarray tqdm bokeh jupyterlab
+conda env create --name neon -c conda-forge -f environment.yml
 conda activate neon
 ```
 --------------
