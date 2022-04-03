@@ -6,7 +6,7 @@ Repository to include all neon-related visualization scripts.
 --------------
 To install all required libraries:
 ```
-conda env create --name neon -c conda-forge -f environment.yml
+conda env create --name neon -f environment.yml
 conda activate neon
 ```
 --------------
