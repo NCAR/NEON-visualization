@@ -187,7 +187,7 @@ def list_neon_eval_files(neon_site):
     """
     # -- download listing.csv
     listing_file = 'listing.csv'
-    url = 'https://neon-ncar.s3.data.neonscience.org/listing.csv'
+    url = "https://storage.neonscience.org/neon-ncar/listing.csv"
     download_file(url, listing_file)
     
     # -- find eval files
