@@ -11,7 +11,7 @@ ipython-genutils==0.2.0
 json5==0.9.6
 jupyter-bokeh==3.0.2
 jupyter-server==1.10.1
-jupyterlab==3.1.0
+jupyterlab==3.1.4
 jupyterlab-server==2.6.1
 locket==0.2.1
 nbclassic==0.3.1
