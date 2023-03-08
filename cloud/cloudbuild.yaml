@@ -1,0 +1,36 @@
+steps:
+  # Build the container image
+  - name: "gcr.io/cloud-builders/docker"
+    args: ["build", 
+           "--tag=${LOCATION}-docker.pkg.dev/$PROJECT_ID/${_IMAGE}",
+           "${_PATH}"]
+  # Push the container image to the registry
+  - name: "gcr.io/cloud-builders/docker"
+    args: ["push", "${LOCATION}-docker.pkg.dev/$PROJECT_ID/${_IMAGE}"]
+  # Deploy to Cloud Run
+  - name: "gcr.io/cloud-builders/gcloud"
+    args: [
+        "run",
+        "deploy",
+        "${_SERVICE}",
+        "--image",
+        "${LOCATION}-docker.pkg.dev/$PROJECT_ID/${_IMAGE}",
+        "--memory",
+        "2Gi",
+        "--concurrency",
+        "80",
+        "--region",
+        "${LOCATION}",
+        "--platform",
+        "managed",
+        "--allow-unauthenticated",
+        "--set-env-vars",
+        "HOST=${_HOST}"
+      ]
+substitutions:
+  _PATH: path
+  _IMAGE: image
+  _SERVICE: service
+  _HOST: host
+images:
+  - "${LOCATION}-docker.pkg.dev/$PROJECT_ID/${_IMAGE}"
