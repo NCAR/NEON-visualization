@@ -7,6 +7,18 @@ steps:
   # Push the container image to the registry
   - name: "gcr.io/cloud-builders/docker"
     args: ["push", "${LOCATION}-docker.pkg.dev/$PROJECT_ID/${_IMAGE}"]
+  # Enable CPU boost
+  - name: "gcr.io/cloud-builders/gcloud"
+    args: [
+        "beta",
+        "run",
+        "services",
+        "update",
+        "${_SERVICE}",
+        "--region",
+        "${LOCATION}",
+        "--cpu-boost"
+      ]
   # Deploy to Cloud Run
   - name: "gcr.io/cloud-builders/gcloud"
     args: [
@@ -17,6 +29,8 @@ steps:
         "${LOCATION}-docker.pkg.dev/$PROJECT_ID/${_IMAGE}",
         "--memory",
         "2Gi",
+        "--min-instances",
+        "1",
         "--concurrency",
         "80",
         "--region",
