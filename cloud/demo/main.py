@@ -289,7 +289,7 @@ def simple_tseries_sync_stat(doc):
     menu_freq = Select(options=freq_list,value=default_freq, title='Frequency') 
     menu_site = Select(options=neon_sites,value=default_site, title='Neon Site') 
     date_picker = DatePicker(title='Select date', value=default_date, min_date="2018-01-01", max_date="2022-02-28")
-    button = Button(label='Update')
+    button = Button(label='Update plot')
     
     def update_stats(df_new):
         rmse_text = 'RMSE : ' +str(rmse(df_new['CLM'], df_new['NEON']))
