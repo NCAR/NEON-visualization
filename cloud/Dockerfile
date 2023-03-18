@@ -1,4 +1,4 @@
-FROM continuumio/anaconda3
+FROM continuumio/anaconda3:2022.10
 
 WORKDIR /apps
 
@@ -13,7 +13,7 @@ ARG USER=bokeh
 RUN useradd -s /bin/bash -m ${USER}
 USER ${USER}
 
-RUN conda create --name neon -c conda-forge python=3.9 numpy scipy matplotlib pandas netcdf4 jupyter xarray tqdm bokeh jupyterlab fsspec ujson gcsfs dask zarr
+RUN conda create --name neon -c conda-forge python numpy scipy matplotlib pandas netcdf4 jupyter xarray tqdm bokeh jupyterlab fsspec ujson gcsfs dask zarr pillow
 
 RUN echo "conda activate neon" >> ~/.bashrc
 SHELL ["/bin/bash", "--login", "-c"]
