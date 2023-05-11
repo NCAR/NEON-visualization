@@ -230,7 +230,7 @@ def simple_tseries_sync_stat(doc):
 
         p.xaxis[0].formatter = DatetimeTickFormatter(days=["%Y-%m-%d"])
 
-        p.title.text = "Time-Series Plot for Neon Site : " +default_site
+        p.title.text = "Time-Series Plot for Neon Site ****** : " +default_site
         
         p.legend.location = "top_right"
         p.legend.label_text_font_size = "13pt"
