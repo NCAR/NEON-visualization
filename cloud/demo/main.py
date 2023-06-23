@@ -280,7 +280,7 @@ def simple_tseries_sync_stat(doc):
         )
     )
     
-    stats = PreText(text='', width=500, styles={'font-size':'15pt', 
+    stats = PreText(text='', width=500, style={'font-size':'15pt', 
                      'color': 'grey', 
                      'font-weight': 'bold',
                      'font-family': 'Arial'})
